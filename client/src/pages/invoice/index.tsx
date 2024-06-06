@@ -1,6 +1,6 @@
 import react, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { WaitToRedirect } from "@/scripts/Redirects";
+import { WaitToRedirect } from "#script/redirects";
 
 const InvoiceIndexPage = () => {
 	const Router = useRouter();
