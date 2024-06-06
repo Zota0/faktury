@@ -7,8 +7,11 @@
 .pnp.js
 .yarn/install-state.gz
 
-/server/tmp
+/server/tmp/*
+/server/tmp/*
 
+/tmp
+/tmp/
 
 # testing
 /coverage
