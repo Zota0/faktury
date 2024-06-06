@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.tx-c {
+    @apply text-center;
+}
+
+.tx-j {
+    @apply text-justify;
+}
+
+.tx-l {
+    @apply text-left;
+}
+
+.tx-r {
+    @apply text-right;
+}
+
+.flex-center {
+    @apply gap-0 flex justify-center items-center align-middle content-center;
+}
+
+.flex-between {
+    @apply gap-0 flex justify-between items-center align-middle content-center;
+}
+
+.flex-around {
+    @apply gap-0 flex justify-around items-center align-middle content-center;
+}
+
+.m-p-0 {
+    @apply m-0 p-0;
+}
+
+body, html {
+    @apply m-p-0;
+}
+
+body {
+    @apply text-blue-100 bg-black;
+    background: color-mix(in hsl shorter hue, darkblue 40%, black);
+}
+
+.tx-lit {
+    @apply text-[16px];
+}
+
+.tx-vsm {
+    @apply text-[18px];
+}
+
+.tx-sm {
+    @apply text-[20px];
+}
+
+.tx-md {
+    @apply text-[24px];
+}
+
+.tx-lg {
+    @apply text-[28px];
+}
+
+.tx-vlg {
+    @apply text-[32px];
+}
+
+.tx-hg {
+    @apply text-[36px];
+}
+
+.tx-vhg {
+    @apply text-[48px];
+}
+
+.tx-co {
+    @apply text-[64px];
+}
+
+.tx-vco {
+    @apply text-[72px];
+}
