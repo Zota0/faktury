@@ -33,7 +33,7 @@ const HeaderComponent = () => {
 					<div className='w-0 md:w-2/3 h-full flex items-center align-middle justify-center'></div>
 					<div className='flex flex-row h-full w-1/2 gap-4 md:gap-0'>
 						<div className='w-1/2 h-full flex items-center align-middle justify-center'>
-							<Link title='Wszystkie faktury' name='all-invoices' href={InvoiceURL ?? ""} className='p-4'>
+							<Link title='Wszystkie faktury' href={InvoiceURL ?? ""} className='p-4'>
 								<CIcon
 									icon={icn.cilList}
 									className='w-full h-full scale-100'
@@ -41,7 +41,7 @@ const HeaderComponent = () => {
 							</Link>
 						</div>
 						<div className='w-1/2 h-full flex items-center align-middle justify-center'>
-							<Link title='Nowa faktura' name='new-invoice' href={`/invoice/new`} className='w-full h-full md:w-[80%] md:h-[80%] p-3 rounded-full bg-green-400 text-green-950'>
+							<Link title='Nowa faktura' href={`/invoice/new`} className='w-full h-full md:w-[80%] md:h-[80%] p-3 rounded-full bg-green-400 text-green-950'>
 								<CIcon
 									icon={icn.cilNoteAdd}
 									className='w-full h-full scale-100'
