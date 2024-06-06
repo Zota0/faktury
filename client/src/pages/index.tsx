@@ -2,7 +2,7 @@ import Image from "next/image";
 import Script from 'next/script';
 import react, {useEffect, useState} from 'react';
 import {useRouter} from 'next/router'; 
-import {WaitToRedirect} from '@/scripts/redirects';
+import { WaitToRedirect } from "#script/redirects";
 
 
 const App = () => {
@@ -33,4 +33,5 @@ const App = () => {
 };
 
 export default App;
+
 
