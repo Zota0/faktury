@@ -10,6 +10,8 @@
 /server/tmp/*
 /server/tmp/*
 
+*.log
+
 /tmp
 /tmp/
 
